@@ -18,6 +18,7 @@ public class task {
             if (charCount[str.charAt(i)] == 1) {
                 System.out.println("The non repeating character is = " + str.charAt(i));
                 flag++;
+                break;
 
             }
 
